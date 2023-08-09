@@ -1,0 +1,81 @@
+body, * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Center content vertically and horizontally */
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  /* Background section styling */
+  #background-section {
+    background-image: url('rf.jfif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  /* Gallery container */
+  div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  /* Gallery images */
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Image description */
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Image layout */
+  .image {
+    padding: 0 6px;
+    float: right;
+    width: 24.99999%;
+  }
+  
+  /* Media queries for responsive layout */
+  @media only screen and (max-width: 700px) {
+    .image {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .image {
+      width: 100%;
+    }
+  }
+  
+  /* Clearfix for float layout */
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.h1{
+    font-style: oblique;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    color: #fdfbfb;
+ 
+}
